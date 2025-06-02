@@ -1,5 +1,5 @@
 
-import { Shield, Terminal, Database, Code, Zap, Lock } from "lucide-react";
+import { Shield, Terminal, Database, Code, Zap, Lock, Users, Brain, Target, MessageSquare, Trophy, Clock } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -38,6 +38,42 @@ const Skills = () => {
       icon: Lock,
       skills: ["CEH (In Progress)", "Security+", "CISSP (Planned)", "OSCP (Planned)"],
       color: "from-indigo-500 to-purple-500"
+    },
+    {
+      title: "Leadership & Teamwork",
+      icon: Users,
+      skills: ["Team Collaboration", "Project Management", "Mentoring", "Cross-functional Communication"],
+      color: "from-teal-500 to-green-500"
+    },
+    {
+      title: "Problem Solving",
+      icon: Brain,
+      skills: ["Critical Thinking", "Root Cause Analysis", "Creative Solutions", "Pattern Recognition"],
+      color: "from-pink-500 to-rose-500"
+    },
+    {
+      title: "Communication",
+      icon: MessageSquare,
+      skills: ["Technical Documentation", "Stakeholder Presentations", "Security Awareness Training", "Report Writing"],
+      color: "from-cyan-500 to-blue-500"
+    },
+    {
+      title: "Project Management",
+      icon: Target,
+      skills: ["Agile Methodology", "Risk Planning", "Timeline Management", "Resource Allocation"],
+      color: "from-orange-500 to-red-500"
+    },
+    {
+      title: "Continuous Learning",
+      icon: Trophy,
+      skills: ["CTF Competitions", "Bug Bounty Programs", "Industry Research", "Technology Adaptation"],
+      color: "from-emerald-500 to-teal-500"
+    },
+    {
+      title: "Time Management",
+      icon: Clock,
+      skills: ["Priority Setting", "Deadline Management", "Multitasking", "Work-Life Balance"],
+      color: "from-violet-500 to-purple-500"
     }
   ];
 
@@ -49,6 +85,9 @@ const Skills = () => {
             Skills & Expertise
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full"></div>
+          <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+            A comprehensive blend of technical expertise and essential soft skills for cybersecurity excellence
+          </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
