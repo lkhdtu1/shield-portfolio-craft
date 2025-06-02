@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-white font-medium">Email</div>
-                  <div className="text-gray-300">alex.chen@email.com</div>
+                  <div className="text-gray-300">mohammedtamis0@gmail.com</div>
                 </div>
               </div>
               
@@ -38,7 +38,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-white font-medium">Location</div>
-                  <div className="text-gray-300">San Francisco Bay Area</div>
+                  <div className="text-gray-300">INPT, Rabat</div>
                 </div>
               </div>
               
@@ -48,7 +48,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-white font-medium">LinkedIn</div>
-                  <div className="text-gray-300">linkedin.com/in/alexchen-cyber</div>
+                  <div className="text-gray-300">linkedin.com/in/mohammedtamis</div>
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Contact = () => {
         
         <div className="text-center mt-16 pt-8 border-t border-gray-700">
           <p className="text-gray-400">
-            © 2024 Alex Chen. Built with passion for cybersecurity.
+            © 2025 Mohammed Tamis. Built with passion for cybersecurity.
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 
-import { Shield, Terminal, Database, Code, Zap, Lock, Users, Brain, Target, MessageSquare, Trophy, Clock } from "lucide-react";
+import { Shield, Terminal, Database, Code, Zap, Lock, Users, Brain, Target, MessageSquare, Trophy, Clock, RouterIcon } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -10,9 +10,21 @@ const Skills = () => {
       color: "from-red-500 to-orange-500"
     },
     {
+      title: "Operating Systems",
+      icon: Zap,
+      skills: ["Windows", "Linux", "Ubuntu", "Kali Linux", "CentOS"],
+      color: "from-yellow-500 to-orange-500"
+    },
+    {
+      title: "Networking",
+      icon: RouterIcon,
+      skills: ["TCP/IP", "DNS", "HTTP/HTTPS", "VPNs", "Firewalls", "IDS/IPS"],
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
       title: "Programming",
       icon: Code,
-      skills: ["Python", "JavaScript", "Bash", "PowerShell", "SQL", "C++"],
+      skills: ["Python", "JavaScript", "Bash", "PowerShell", "SQL", "C++", "Java"],
       color: "from-blue-500 to-cyan-500"
     },
     {
@@ -28,21 +40,15 @@ const Skills = () => {
       color: "from-purple-500 to-pink-500"
     },
     {
-      title: "Cloud Security",
-      icon: Zap,
-      skills: ["AWS Security", "Azure Security", "Docker", "Kubernetes", "Terraform"],
-      color: "from-yellow-500 to-orange-500"
-    },
-    {
       title: "Certifications",
       icon: Lock,
-      skills: ["CEH (In Progress)", "Security+", "CISSP (Planned)", "OSCP (Planned)"],
+      skills: ["Hashgraph developer", "CISSP (Planned)", "OSCP (Planned)"],
       color: "from-indigo-500 to-purple-500"
     },
     {
       title: "Leadership & Teamwork",
       icon: Users,
-      skills: ["Team Collaboration", "Project Management", "Mentoring", "Cross-functional Communication"],
+      skills: ["Team Collaboration", "Project Management", "Cross-functional Communication"],
       color: "from-teal-500 to-green-500"
     },
     {
@@ -54,7 +60,7 @@ const Skills = () => {
     {
       title: "Communication",
       icon: MessageSquare,
-      skills: ["Technical Documentation", "Stakeholder Presentations", "Security Awareness Training", "Report Writing"],
+      skills: ["Technical Documentation", "Stakeholder Presentations",  "Report Writing"],
       color: "from-cyan-500 to-blue-500"
     },
     {
@@ -66,7 +72,7 @@ const Skills = () => {
     {
       title: "Continuous Learning",
       icon: Trophy,
-      skills: ["CTF Competitions", "Bug Bounty Programs", "Industry Research", "Technology Adaptation"],
+      skills: ["CTF Competitions", "Bug Bounty Programs", "Participating in conferences", "Technology Adaptation"],
       color: "from-emerald-500 to-teal-500"
     },
     {

@@ -4,8 +4,8 @@ import { Shield, Code, Database, Monitor } from "lucide-react";
 const About = () => {
   const stats = [
     { icon: Shield, label: "Security Projects", value: "15+" },
-    { icon: Code, label: "Lines of Code", value: "50K+" },
-    { icon: Database, label: "Vulnerabilities Found", value: "200+" },
+    { icon: Code, label: "Lines of Code", value: "20K+" },
+    { icon: Database, label: "Vulnerabilities Found", value: "20+" },
     { icon: Monitor, label: "Systems Secured", value: "30+" },
   ];
 
@@ -22,14 +22,18 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              I'm a dedicated cybersecurity student with a passion for understanding and preventing 
-              digital threats. My journey began with curiosity about how systems work and evolved 
+              My journey began with curiosity about how systems work and evolved 
               into a deep commitment to protecting them.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Currently pursuing my Bachelor's in Cybersecurity while gaining practical experience 
-              through hands-on projects, CTF competitions, and internships. I specialize in 
-              penetration testing, vulnerability assessment, and security architecture.
+              Passionate about emerging technologies, I am currently looking for an internship 
+              opportunity where I can apply and further develop my skills in cybersecurity. 
+              Throughout my academic journey, I’ve built a solid foundation in digital security, 
+              risk assessment, and system resilience. Now, I’m eager 
+              to translate this knowledge into real-world experience, contribute to impactful projects, 
+              and grow within a professional environment where I can learn from experienced mentors and 
+              stay at the forefront of cybersecurity advancements.
+
             </p>
             <p className="text-gray-300 text-lg leading-relaxed">
               When I'm not analyzing security protocols, you'll find me contributing to open-source 

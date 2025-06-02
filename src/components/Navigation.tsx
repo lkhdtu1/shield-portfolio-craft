@@ -52,7 +52,7 @@ const Navigation = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             <div className="text-xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-              Alex Chen
+              Mohammed TAMIS
             </div>
             
             {/* Desktop Menu */}

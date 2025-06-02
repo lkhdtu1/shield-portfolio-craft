@@ -4,41 +4,60 @@ import { Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Cybersecurity Intern",
-      company: "SecureTech Solutions",
-      location: "San Francisco, CA",
-      period: "June 2024 - Present",
+      title: "Cybersecurity Student INE1",
+      company: "Institut National des Postes et Télécommunications (INPT)",
+      location: "Rabat, Morocco",
+      period: "September 2024 – June 2025",
       description: [
-        "Conducted vulnerability assessments on client networks and web applications",
-        "Assisted in penetration testing engagements and security audits",
-        "Developed security documentation and incident response procedures",
-        "Collaborated with senior analysts on threat hunting activities"
+        "Pursuing studies in cybersecurity with a focus on network security, cryptography, and ethical hacking.",
+        "Participated in hands-on cybersecurity labs and simulations.",
+        "Collaborated on group projects focused on network security.",
+        "Engaged in continuous learning through workshops and seminars."
+
       ],
       current: true
     },
+
     {
-      title: "IT Security Assistant",
-      company: "University IT Department",
-      location: "Berkeley, CA",
-      period: "September 2023 - May 2024",
+      title: "Classes préparatoires aux grandes écoles (MP*)",
+      company: "Lycée Moulay Youssef",
+      location: "Rabat, Morocco",
+      period: "September 2023 – June 2024",
       description: [
-        "Monitored network security events and responded to security incidents",
-        "Implemented security policies and conducted security awareness training",
-        "Maintained and updated security tools and documentation",
-        "Supported faculty and staff with security-related issues"
+        "Studied advanced mathematics, physics, and computer science.",
+        "Developed problem-solving skills through rigorous coursework.",
+        "Participated in various french concours (Mine-Ponts, centrale, CCINP)."
+
+      ],
+      current: false
+    },
+
+
+
+
+
+
+
+
+    {
+      title: "Classes préparatoires aux grandes écoles (MPSI)",
+      company: "Lycée Acharrif al idrissi",
+      location: "Taza, Morocco",
+      period: "September 2022 – June 2023",
+      description: [
+        "Studied advanced mathematics, physics, and computer science.",
       ],
       current: false
     },
     {
-      title: "Junior SOC Analyst",
-      company: "CyberWatch Inc.",
-      location: "Remote",
-      period: "January 2023 - August 2023",
+      title: "Bac Sciences Mathématiques A(option francais)",
+      company: "Lycée SALMA ERREGRAGUI",
+      location: "Taza, Morocco",
+      period: "September 2021 – June 2022",
       description: [
-        "Monitored SIEM alerts and investigated potential security threats",
-        "Performed malware analysis and digital forensics investigations",
-        "Created detailed incident reports and remediation recommendations",
-        "Participated in 24/7 security operations center rotations"
+        "Mention : Très bien.",
+        "Achieved a high score in mathematics and physics.",
+        "Participated in various science fairs and mathematics competitions."
       ],
       current: false
     }

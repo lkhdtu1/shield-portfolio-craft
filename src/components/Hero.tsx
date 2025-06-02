@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react";
 
 const Hero = () => {
   const [text, setText] = useState("");
-  const fullText = "Cybersecurity Specialist";
+  const fullText = "Cybersecurity Student";
   const [isTyping, setIsTyping] = useState(true);
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-            Alex Chen
+            Mohammed TAMIS
           </h1>
           <div className="text-xl md:text-2xl text-gray-300 font-mono">
             <span className="text-green-400">$</span> {text}
@@ -56,9 +56,11 @@ const Hero = () => {
         </div>
         
         <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Passionate about protecting digital assets and building secure systems. 
-          Currently pursuing advanced cybersecurity certifications while gaining hands-on experience 
-          in penetration testing and security analysis.
+          I'm a dedicated cybersecurity student with a strong interest in protecting digital assets and building secure systems.  
+          Through my studies and practical projects, I've developed a solid understanding of security principles, risk assessment,
+          and threat mitigation. I'm eager to apply my knowledge to real-world challenges and contribute to creating safer digital
+          environments.
+
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
