@@ -22,12 +22,11 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "Incident Response Platform",
-      description: "Web-based platform for cybersecurity incident tracking and response coordination.",
-      tech: ["React", "Node.js", "MongoDB", "Socket.io"],
+      title: "Secure sharing and collaboration platform",
+      description: "Web-based platform for secure file sharing and team collaboration.",
+      tech: ["React", "Flask", "SQLite", "Socket.io"],
       image: "photo-1461749280684-dccba630e2f6",
       github: "#",
-      demo: "#",
       featured: false
     },
     {

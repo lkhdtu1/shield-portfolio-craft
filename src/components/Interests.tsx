@@ -35,7 +35,7 @@ const Interests = () => {
     },
     {
       title: "Community",
-      description: "Mentoring newcomers and organizing cybersecurity meetups",
+      description: "Engaging with cybersecurity communities and collaborating with peers",
       icon: Users,
       color: "from-teal-500 to-green-500"
     },
@@ -46,8 +46,8 @@ const Interests = () => {
       color: "from-yellow-500 to-orange-500"
     },
     {
-      title: "Coffee & Code",
-      description: "Late-night coding sessions with quality coffee",
+      title: "Tea & Code",
+      description: "Late-night coding sessions with quality tea",
       icon: Coffee,
       color: "from-amber-500 to-orange-500"
     }
