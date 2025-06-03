@@ -61,13 +61,13 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
             Mohammed TAMIS
           </h1>
-          <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 font-mono">
+          <div className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 font-mono">
             <span className="text-green-400">$</span> {text}
             {isTyping && <span className="animate-pulse text-green-400">_</span>}
           </div>
         </div>
         
-        <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-gray-800 dark:text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
           I'm a dedicated cybersecurity student with a strong interest in protecting digital assets and building secure systems.  
           Through my studies and practical projects, I've developed a solid understanding of security principles, risk assessment,
           and threat mitigation. I'm eager to apply my knowledge to real-world challenges and contribute to creating safer digital

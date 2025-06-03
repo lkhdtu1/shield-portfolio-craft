@@ -61,7 +61,7 @@ const Interests = () => {
             Interests & Hobbies
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full"></div>
-          <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto">
+          <p className="text-gray-700 dark:text-gray-400 mt-4 max-w-2xl mx-auto">
             Beyond cybersecurity, here are the passions that drive my creativity and continuous learning
           </p>
         </div>
@@ -79,7 +79,7 @@ const Interests = () => {
                     <IconComponent className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{interest.title}</h3>
-                  <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">{interest.description}</p>
+                  <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">{interest.description}</p>
                 </div>
               </div>
             );

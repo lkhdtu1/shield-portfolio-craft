@@ -21,11 +21,11 @@ const About = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
+            <p className="text-gray-800 dark:text-gray-300 text-lg leading-relaxed mb-6">
               My journey began with curiosity about how systems work and evolved 
               into a deep commitment to protecting them.
             </p>
-            <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-6">
+            <p className="text-gray-800 dark:text-gray-300 text-lg leading-relaxed mb-6">
               Passionate about emerging technologies, I am currently looking for an internship 
               opportunity where I can apply and further develop my skills in cybersecurity. 
               Throughout my academic journey, I've built a solid foundation in digital security, 
@@ -35,7 +35,7 @@ const About = () => {
               stay at the forefront of cybersecurity advancements.
 
             </p>
-            <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-800 dark:text-gray-300 text-lg leading-relaxed">
               When I'm not analyzing security protocols, you'll find me contributing to open-source 
               security tools or participating in bug bounty programs.
             </p>
@@ -51,7 +51,7 @@ const About = () => {
                 >
                   <IconComponent className="w-8 h-8 text-green-400 mb-3" />
                   <div className="text-2xl font-bold text-gray-900 dark:text-white mb-1">{stat.value}</div>
-                  <div className="text-gray-600 dark:text-gray-400 text-sm">{stat.label}</div>
+                  <div className="text-gray-700 dark:text-gray-400 text-sm">{stat.label}</div>
                 </div>
               );
             })}

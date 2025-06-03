@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
@@ -50,7 +51,7 @@ const Navigation = () => {
   return (
     <>
       {/* Desktop Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900/80 dark:bg-gray-900/80 light:bg-white/80 backdrop-blur-md border-b border-gray-700/50 dark:border-gray-700/50 light:border-gray-200/50">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200/50 dark:border-gray-700/50">
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             <div className="text-xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
@@ -64,7 +65,7 @@ const Navigation = () => {
                   key={item.id}
                   onClick={() => scrollToSection(item.href)}
                   className={`text-sm font-medium transition-colors duration-200 hover:text-green-400 ${
-                    activeSection === item.id ? 'text-green-400' : 'text-gray-300 dark:text-gray-300 light:text-gray-700'
+                    activeSection === item.id ? 'text-green-400' : 'text-gray-700 dark:text-gray-300'
                   }`}
                 >
                   {item.label}
@@ -74,7 +75,7 @@ const Navigation = () => {
               {/* Theme Toggle */}
               <button
                 onClick={toggleTheme}
-                className="p-2 rounded-lg text-gray-300 dark:text-gray-300 light:text-gray-700 hover:text-green-400 transition-colors duration-200"
+                className="p-2 rounded-lg text-gray-700 dark:text-gray-300 hover:text-green-400 transition-colors duration-200"
                 aria-label="Toggle theme"
               >
                 {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
@@ -85,14 +86,14 @@ const Navigation = () => {
             <div className="md:hidden flex items-center space-x-2">
               <button
                 onClick={toggleTheme}
-                className="p-2 text-gray-300 dark:text-gray-300 light:text-gray-700 hover:text-green-400 transition-colors"
+                className="p-2 text-gray-700 dark:text-gray-300 hover:text-green-400 transition-colors"
                 aria-label="Toggle theme"
               >
                 {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
               </button>
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-gray-300 dark:text-gray-300 light:text-gray-700 hover:text-green-400 transition-colors"
+                className="text-gray-700 dark:text-gray-300 hover:text-green-400 transition-colors"
               >
                 {isOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
@@ -102,14 +103,14 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden bg-gray-900/95 dark:bg-gray-900/95 light:bg-white/95 backdrop-blur-md border-t border-gray-700/50 dark:border-gray-700/50 light:border-gray-200/50">
+          <div className="md:hidden bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-t border-gray-200/50 dark:border-gray-700/50">
             <div className="px-6 py-4 space-y-3">
               {navItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.href)}
                   className={`block w-full text-left text-sm font-medium transition-colors duration-200 hover:text-green-400 ${
-                    activeSection === item.id ? 'text-green-400' : 'text-gray-300 dark:text-gray-300 light:text-gray-700'
+                    activeSection === item.id ? 'text-green-400' : 'text-gray-700 dark:text-gray-300'
                   }`}
                 >
                   {item.label}
