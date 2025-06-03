@@ -56,9 +56,9 @@ const Hero = () => {
         <div className="mb-8 flex justify-center">
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80"
+              src="src/ressources/1.jpg"
               alt="Mohammed TAMIS"
-              className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-green-400 shadow-lg shadow-green-400/25"
+              className="w-40 h-40 md:w-48 md:h-45 rounded-full border-4 border-green-400 shadow-lg shadow-green-400/25"
             />
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-green-400/20 to-blue-500/20"></div>
           </div>
@@ -89,7 +89,7 @@ const Hero = () => {
             View My Work
           </button>
           <a
-            href="/path-to-your-cv.pdf"
+            href="/src/ressources/MOHAMMED-TAMIS-FlowCV-Resume-20250503.pdf"
             download
             className="px-8 py-3 border border-green-400 text-green-600 dark:text-green-400 rounded-lg font-semibold hover:bg-green-400 hover:text-white transition-all duration-200 text-center"
           >
