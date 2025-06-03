@@ -21,6 +21,13 @@ const Hero = () => {
     return () => clearInterval(timer);
   }, []);
 
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById('projects');
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Grid */}
@@ -75,12 +82,19 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <button className="px-8 py-3 bg-gradient-to-r from-green-500 to-blue-600 rounded-lg font-semibold text-white hover:scale-105 transition-transform duration-200 shadow-lg shadow-green-500/25">
+          <button 
+            onClick={scrollToProjects}
+            className="px-8 py-3 bg-gradient-to-r from-green-500 to-blue-600 rounded-lg font-semibold text-white hover:scale-105 transition-transform duration-200 shadow-lg shadow-green-500/25"
+          >
             View My Work
           </button>
-          <button className="px-8 py-3 border border-green-400 text-green-600 dark:text-green-400 rounded-lg font-semibold hover:bg-green-400 hover:text-white transition-all duration-200">
+          <a
+            href="/path-to-your-cv.pdf"
+            download
+            className="px-8 py-3 border border-green-400 text-green-600 dark:text-green-400 rounded-lg font-semibold hover:bg-green-400 hover:text-white transition-all duration-200 text-center"
+          >
             Download CV
-          </button>
+          </a>
         </div>
       </div>
       
