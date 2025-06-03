@@ -54,14 +54,14 @@ const Interests = () => {
   ];
 
   return (
-    <section id="interests" className="py-20 px-6 bg-gray-800/30">
+    <section id="interests" className="py-20 px-6 bg-gray-100 dark:bg-gray-800/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
             Interests & Hobbies
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto rounded-full"></div>
-          <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto">
             Beyond cybersecurity, here are the passions that drive my creativity and continuous learning
           </p>
         </div>
@@ -72,14 +72,14 @@ const Interests = () => {
             return (
               <div
                 key={index}
-                className="bg-gray-900/50 p-6 rounded-xl border border-gray-700 hover:border-gray-600 transition-all duration-300 hover:scale-105 group"
+                className="bg-white dark:bg-gray-900/50 p-6 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 transition-all duration-300 hover:scale-105 group shadow-sm"
               >
                 <div className="flex flex-col items-center text-center">
                   <div className={`p-4 rounded-full bg-gradient-to-r ${interest.color} mb-4`}>
                     <IconComponent className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-lg font-semibold text-white mb-2">{interest.title}</h3>
-                  <p className="text-gray-300 text-sm leading-relaxed">{interest.description}</p>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{interest.title}</h3>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">{interest.description}</p>
                 </div>
               </div>
             );
