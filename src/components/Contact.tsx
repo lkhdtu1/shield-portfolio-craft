@@ -95,7 +95,7 @@ const Contact = () => {
         
         <div className="text-center mt-16 pt-8 border-t border-gray-700">
           <p className="text-gray-400">
-            © 2025 Mohammed Tamis. Built with passion for cybersecurity.
+            © 2025 Mohammed TAMIS. Built with passion for cybersecurity.
           </p>
         </div>
       </div>
