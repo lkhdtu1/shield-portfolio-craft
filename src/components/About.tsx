@@ -3,10 +3,10 @@ import { Shield, Code, Database, Monitor } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: Shield, label: "Security Projects", value: "15+" },
+    { icon: Shield, label: "Security Projects", value: "10+" },
     { icon: Code, label: "Lines of Code", value: "20K+" },
     { icon: Database, label: "Vulnerabilities Found", value: "20+" },
-    { icon: Monitor, label: "Systems Secured", value: "30+" },
+    { icon: Monitor, label: "Systems Secured", value: "10+" },
   ];
 
   return (

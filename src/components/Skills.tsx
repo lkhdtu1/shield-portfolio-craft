@@ -33,12 +33,7 @@ const Skills = () => {
       skills: ["NIST", "ISO 27001", "OWASP Top 10", "MITRE ATT&CK", "CIS Controls"],
       color: "from-green-500 to-emerald-500"
     },
-    {
-      title: "Specializations",
-      icon: Terminal,
-      skills: ["Penetration Testing", "Incident Response", "Digital Forensics", "Risk Assessment"],
-      color: "from-purple-500 to-pink-500"
-    },
+    
     {
       title: "Certifications",
       icon: Lock,

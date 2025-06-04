@@ -4,38 +4,30 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Vulnerability Scanner",
-      description: "Python-based network vulnerability scanner that identifies common security weaknesses in web applications and network services.",
-      tech: ["Python", "Nmap", "SQLMap", "BeautifulSoup"],
+      title: "Security cameras network with Blynk",
+      description: "A project that integrates Wi-Fi security cameras with the Blynk platform for remote monitoring, control, and vulnerabilities detection.",
+      tech: ["ESP32", "Blynk", "Python", "Flask"],
       image: "photo-1518770660439-4636190af475",
       github: "#",
-      demo: "#",
+      
       featured: true
     },
-    {
-      title: "Phishing Detection System",
-      description: "Machine learning model to detect phishing websites using URL analysis and content inspection.",
-      tech: ["Python", "Scikit-learn", "Flask", "JavaScript"],
-      image: "photo-1487058792275-0ad4aaf24ca7",
-      github: "#",
-      demo: "#",
-      featured: true
-    },
+    
     {
       title: "Secure sharing and collaboration platform",
       description: "Web-based platform for secure file sharing and team collaboration.",
       tech: ["React", "Flask", "SQLite", "Socket.io"],
       image: "photo-1461749280684-dccba630e2f6",
-      github: "#",
+      github: "https://github.com/lkhdtu1/secure-collab-platform1.git",
       featured: false
     },
     {
-      title: "Password Strength Analyzer",
-      description: "Tool that analyzes password strength and provides recommendations for improvement.",
-      tech: ["JavaScript", "Python", "Chart.js", "Bootstrap"],
+      title: "online shopping platform for local products with collection point system",
+      description: "A platform that connects local producers with consumers, allowing for online shopping and a collection point system.",
+      tech: ["React", "Node.js", "MySQL", "Express"],
       image: "photo-1488590528505-98d2b5aba04b",
-      github: "#",
-      demo: "#",
+      github: "https://classroom.github.com/a/ep7yRoXn",
+      
       featured: false
     }
   ];
@@ -90,13 +82,7 @@ const Projects = () => {
                     <Github className="w-4 h-4" />
                     Code
                   </a>
-                  <a
-                    href={project.demo}
-                    className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </a>
+                  
                 </div>
               </div>
             </div>
