@@ -1,6 +1,6 @@
 ## Project info
 
-**URL**: 
+**URL**: https://lkhdtu1.github.io/shield-portfolio-craft/
 
 ## How can I edit this code?
 
