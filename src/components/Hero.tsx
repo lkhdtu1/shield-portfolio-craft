@@ -56,7 +56,7 @@ const Hero = () => {
         <div className="mb-8 flex justify-center">
           <div className="relative">
             <img
-              src="src/ressources/1.jpg"
+              src="./ressources/1.jpg"
               alt="Mohammed TAMIS"
               className="w-40 h-40 md:w-48 md:h-45 rounded-full border-4 border-green-400 shadow-lg shadow-green-400/25"
             />
@@ -89,7 +89,7 @@ const Hero = () => {
             View My Work
           </button>
           <a
-            href="/src/ressources/MOHAMMED-TAMIS-FlowCV-Resume-20250503.pdf"
+            href="./ressources/MOHAMMED-TAMIS-FlowCV-Resume-20250503.pdf"
             download
             className="px-8 py-3 border border-green-400 text-green-600 dark:text-green-400 rounded-lg font-semibold hover:bg-green-400 hover:text-white transition-all duration-200 text-center"
           >
